@@ -7,6 +7,7 @@ import (
 	"github.com/iriartico/twittor/db"
 )
 
+/*ViewProfile me ayuda con el metodo GET a la coleccion de usuarios*/
 func ViewProfile(w http.ResponseWriter, r *http.Request) {
 
 	ID := r.URL.Query().Get("id")

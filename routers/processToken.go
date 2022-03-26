@@ -9,7 +9,10 @@ import (
 	"github.com/iriartico/twittor/models"
 )
 
+/*Email valor de Email que es usado en todos los endpoints*/
 var Email string
+
+/*UserID es el ID devuelto del modelo, es usado en todos los endpoints*/
 var UserID string
 
 /*ProcessToken procesa el token para extraer sus valores*/
